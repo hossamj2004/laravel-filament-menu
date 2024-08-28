@@ -13,7 +13,7 @@ composer require your-namespace/laravel-filament-menu
 After installing the package, publish the configuration and run the installation command:
 
 ```bash
-php artisan vendor:publish --provider="YourNamespace\Providers\MenuServiceProvider"
+php artisan vendor:publish --provider="LarvelFilamentMenu\Providers\MenuServiceProvider"
 php artisan migrate
 php artisan menu:install
 ```

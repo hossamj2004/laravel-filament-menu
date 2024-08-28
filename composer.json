@@ -4,7 +4,7 @@
   "type": "library",
   "autoload": {
     "psr-4": {
-      "YourNamespace\\": "src/"
+      "LarvelFilamentMenu\\": "src/"
     }
   },
   "require": {
@@ -13,7 +13,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "YourNamespace\\Providers\\MenuServiceProvider"
+        "LarvelFilamentMenu\\Providers\\MenuServiceProvider"
       ],
       "aliases": []
     }
