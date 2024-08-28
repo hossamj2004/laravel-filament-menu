@@ -10,7 +10,9 @@ class MenuServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadMenuItems();
+        if (Schema::hasTable('menu_items')) {
+            $this->loadMenuItems();
+        }
     }
 
     protected function loadMenuItems()
