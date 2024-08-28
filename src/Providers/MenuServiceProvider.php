@@ -10,6 +10,7 @@ class MenuServiceProvider extends ServiceProvider
 {
     public function boot()
     {
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         if (Schema::hasTable('menu_items')) {
             $this->loadMenuItems();
         }
