@@ -1,0 +1,21 @@
+{
+  "name": "hossam-hassan-abdu/laravel-filament-menu",
+  "description": "A package for dynamic Filament menu items.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "YourNamespace\\": "src/"
+    }
+  },
+  "require": {
+    "filament/filament": "^3.2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "YourNamespace\\Providers\\MenuServiceProvider"
+      ],
+      "aliases": []
+    }
+  }
+}
