@@ -1,9 +1,9 @@
 <?php
 
-namespace YourNamespace\Console;
+namespace LarvelFilamentMenu\Console;
 
 use Illuminate\Console\Command;
-use YourNamespace\Models\MenuItem;
+use LarvelFilamentMenu\Models\MenuItem;
 
 class InstallMenu extends Command
 {

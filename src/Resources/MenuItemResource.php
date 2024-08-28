@@ -1,12 +1,12 @@
 <?php
 
-namespace YourNamespace\Resources;
+namespace LarvelFilamentMenu\Resources;
 
 use Filament\Resources\Resource;
 use Filament\Resources\Pages\ListRecords;
 use Filament\Resources\Pages\CreateRecord;
 use Filament\Resources\Pages\EditRecord;
-use YourNamespace\Models\MenuItem;
+use LarvelFilamentMenu\Models\MenuItem;
 
 class MenuItemResource extends Resource
 {

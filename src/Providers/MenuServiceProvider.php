@@ -1,9 +1,9 @@
 <?php
 
-namespace YourNamespace\Providers;
+namespace LarvelFilamentMenu\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use YourNamespace\Models\MenuItem;
+use LarvelFilamentMenu\Models\MenuItem;
 use Filament\Facades\Filament;
 
 class MenuServiceProvider extends ServiceProvider

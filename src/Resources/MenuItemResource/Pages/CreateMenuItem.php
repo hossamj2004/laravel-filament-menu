@@ -1,9 +1,9 @@
 <?php
 
-namespace YourNamespace\Resources\MenuItemResource\Pages;
+namespace LarvelFilamentMenu\Resources\MenuItemResource\Pages;
 
 use Filament\Resources\Pages\CreateRecord;
-use YourNamespace\Resources\MenuItemResource;
+use LarvelFilamentMenu\Resources\MenuItemResource;
 
 class CreateMenuItem extends CreateRecord
 {

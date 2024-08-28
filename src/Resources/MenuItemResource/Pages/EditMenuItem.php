@@ -1,9 +1,9 @@
 <?php
 
-namespace YourNamespace\Resources\MenuItemResource\Pages;
+namespace LarvelFilamentMenu\Resources\MenuItemResource\Pages;
 
 use Filament\Resources\Pages\EditRecord;
-use YourNamespace\Resources\MenuItemResource;
+use LarvelFilamentMenu\Resources\MenuItemResource;
 
 class EditMenuItem extends EditRecord
 {

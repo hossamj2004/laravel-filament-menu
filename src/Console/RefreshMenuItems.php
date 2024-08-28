@@ -1,9 +1,9 @@
 <?php
 
-namespace YourNamespace\Console\Commands;
+namespace LarvelFilamentMenu\Console\Commands;
 
 use Illuminate\Console\Command;
-use YourNamespace\Providers\MenuServiceProvider;
+use LarvelFilamentMenu\Providers\MenuServiceProvider;
 
 class RefreshMenuItems extends Command
 {

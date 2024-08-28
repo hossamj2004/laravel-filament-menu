@@ -1,6 +1,6 @@
 <?php
 
-namespace YourNamespace\Models;
+namespace LarvelFilamentMenu\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
