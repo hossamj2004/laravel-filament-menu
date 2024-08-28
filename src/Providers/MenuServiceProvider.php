@@ -5,7 +5,7 @@ namespace LarvelFilamentMenu\Providers;
 use Illuminate\Support\ServiceProvider;
 use LarvelFilamentMenu\Models\MenuItem;
 use Filament\Facades\Filament;
-
+use Illuminate\Support\Facades\Schema;
 class MenuServiceProvider extends ServiceProvider
 {
     public function boot()
