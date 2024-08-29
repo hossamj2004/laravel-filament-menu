@@ -11,7 +11,7 @@ class MenuServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../database/migrations/' => database_path('migrations'),
+            __DIR__.'/../migrations/' => database_path('migrations'),
         ], 'migrations');
 
         if (Schema::hasTable('menu_items')) {
